@@ -1,2 +1,2 @@
 # sandbox
-A collection of raw drafts, learning progress, and WIP scripts help me grow as a specialist. It’s a record of my trial-and-error process, documenting the messy, essential steps behind every step.
+My personal coding sandbox, a space for drafting projects, and refining code. It contains various test projects, proof-of-concepts, scripts, and drafts as I explore different technologies and algorithms. Think of it as my digital workshop for all things code!
