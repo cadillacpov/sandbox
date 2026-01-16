@@ -1,7 +1,7 @@
 package day1;
 
 public class BookSummary {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         String title = "The Great Gatsby";
         int pages = 180;
         double price = 15.99;
