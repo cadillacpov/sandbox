@@ -6,7 +6,7 @@ abstract class Shape {
 }
 
 class Square extends Shape {
-    private double side;
+    private final double side;
 
     public Square(double side) {
         this.side = side;
