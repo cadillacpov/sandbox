@@ -1,0 +1,147 @@
+# Learn Python
+
+<aside>
+
+## Day 1: Python Fundamentals
+
+**Concepts:**
+
+- Introduction to Python, its purpose, and the Python interpreter.
+- Setting up the environment with an editor like VS Code and installing Python.
+- Basic syntax, including indentation and the `main` function.
+- Variables and fundamental data types (`int`, `float`, `str`, `bool`).
+- Input/Output using `print()` and `input()`.
+- **Arithmetic** (`+`, , , `/`, `//`, `%`) and **relational** (`==`, `!=`, `<`, `>`, `<=`, `>=`) operators.
+
+**Practice Questions:**
+
+1. Declare variables for your favorite book's title (string), the number of pages (integer), and the price (float). Print a summary of the book.
+2. Write a program that takes two numbers from the user, multiplies them, and prints the result.
+3. Write a program that asks the user for a length and width and calculates the perimeter of a rectangle.
+4. Write a program that takes two integers from the user and checks if the first number is less than or equal to the second. Print the result.
+
+---
+
+## Day 2: Control Flow and Logic
+
+**Concepts:**
+
+- Conditional statements: `if`, `elif`, `else`.
+- Loops: `for` and `while`.
+- The `range()` function.
+- `break` and `continue` keywords.
+- **Logical** (`and`, `or`, `not`) and **bitwise** (`&`, `|`, `^`, `~`, `<<`, `>>`) operators.
+
+**Practice Questions:**
+
+1. Create a program that asks the user for their age and determines if they are a minor, an adult, or a senior citizen.
+2. Write a program that uses a `for` loop to print a countdown from 10 to 1.
+3. Write a program that simulates a login. Ask the user for a username and a password. If both are correct, print a success message; otherwise, print an error.
+4. Write a program that checks if a number is divisible by both 3 and 5.
+
+---
+
+## Day 3: Data Structures and Collections
+
+**Concepts:**
+
+- Introduction to built-in data structures.
+- **Lists:** Ordered, mutable collections.
+- **Tuples:** Ordered, immutable collections.
+- **Dictionaries:** Unordered, key-value pair collections.
+- **Sets:** Unordered collections of unique elements.
+- **Arrays**: Large numeric datasets where memory efficiency matters.
+
+| **Feature** | **List** | **Tuple** | **Set** | **Dictionary** | **Array** |
+| --- | --- | --- | --- | --- | --- |
+| Ordered | Yes | Yes | No | Yes (3.7+) | Yes |
+| Mutable | Yes | No | Yes | Yes | Yes |
+| Duplicates | Yes | Yes | No | Keys: No | Yes |
+|  |  |  | Values: Yes |  |  |
+| Syntax | [] | () | {} | {key:value} | array() |
+| Access | Index | Index | N/A | Key | Index |
+| Add Item | append() | N/A | add() | dict[key] | append() |
+| Remove Item | remove() | N/A | remove() | del/pop() | remove() |
+| Use Cases | General | Immutable | Unique | Key-value | Numeric |
+| collections | data, | items, | mapping, | data, |  |
+|  | dict keys | membership | fast lookup | efficient |  |
+| Performance | Fast append | Faster than | Fast | Fast lookup | Memory |
+|  | lists | membership | O(1) | efficient |  |
+| Indexing | O(1) | O(1) | N/A | O(1) | O(1) |
+| Search | O(n) | O(n) | O(1) | O(1) | O(n) |
+
+**Practice Questions:**
+
+1. Create a list of your five favorite fruits. Use a `for` loop to print each fruit on a new line.
+2. Write a program that asks the user for five numbers and stores them in a list. Then, calculate and print the average of the numbers.
+3. Create a dictionary of five states and their capitals. Ask the user for a state and print its capital.
+4. Write a program that takes a sentence from the user and counts how many times a specific word appears.
+
+---
+
+## Day 4: Functions and Modules
+
+**Concepts:**
+
+- Defining and calling functions with the `def` keyword.
+- Function arguments and return values.
+- Scope of variables (local vs. global).
+- Importing and using modules (e.g., `math`, `random`).
+- Creating and importing your own modules.
+
+**Practice Questions:**
+
+1. Define a function `is_even()` that takes a number as an argument and returns `True` if it's even, and `False` otherwise.
+2. Write a function `calculate_area(length, width)` that returns the area of a rectangle.
+3. Create a module with a function that generates a random number within a user-defined range. Import and use this function in your main program.
+4. Write a function `reverse_string(s)` that takes a string and returns its reversed version.
+
+---
+
+## Day 5: Object-Oriented Programming (OOP)
+
+**Concepts:**
+
+- Introduction to **OOP** principles: **Encapsulation**, **Inheritance**, and **Polymorphism**.
+- Defining **classes** and creating **objects**.
+- `__init__` method (the constructor) and the `self` keyword.
+- Class and instance attributes and methods.
+- Basic **inheritance**.
+
+**Practice Questions:**
+
+1. Define a `Dog` class with attributes for `name` and `age`. Include a method `bark()` that prints a sound.
+2. Create a `Car` class with properties `make` and `model` and a method `display_info()` that prints both.
+3. Create a `Shape` class with a method `area()` that returns 0. Create a subclass `Square` that overrides this method to return the area of a square.
+4. Write a program that simulates a simple bank account with a `deposit` and `withdraw` method.
+
+---
+
+## Day 6: File Handling and Error Management
+
+**Concepts:**
+
+- Reading from and writing to files using the `open()` function.
+- The `with` statement for automatic file closing.
+- Handling different file modes (`'r'`, `'w'`, `'a'`).
+- **Error handling** with `try`, `except`, and `finally` blocks.
+- Common exceptions like `ValueError` and `FileNotFoundError`.
+
+**Practice Questions:**
+
+1. Write a program that prompts the user for their name and then writes "Hello, [Name]!" to a file called `greeting.txt`.
+2. Create a program that reads the contents of a file named `story.txt` and prints each line. Use a `try-except` block to handle a `FileNotFoundError`.
+3. Write a program that asks the user for two numbers and performs division. Use a `try-except` block to handle a `ZeroDivisionError` if the second number is zero.
+4. Create a simple program that reads a file and counts the total number of words in it.
+
+---
+
+## Day 7: Build a CLI To-Do List Application
+
+- **Functionality:** The app should allow a user to add a task, view all tasks, and mark a task as complete.
+- **Data Structure:** Use a **list of dictionaries** to store the to-do items, where each dictionary has keys like `'task'` (string) and `'completed'` (boolean).
+- **User Interface:** Implement a simple command-line interface with a **`while` loop** that presents a menu of options.
+- **Functions:** Organize the logic into functions like `add_task()`, `view_tasks()`, and `mark_complete()`.
+- **File I/O:** Use **file handling** to save the to-do list to a text file (e.g., `todos.txt`) at the end of the session and load it when the program starts.
+- **Error Handling:** Use a **`try-except`** block to handle potential errors, such as a user entering an invalid option.
+</aside>
