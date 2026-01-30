@@ -1,0 +1,16 @@
+id,full_name,registration_date,annual_revenue,country,active
+1,John Doe,2023-01-15,55000,USA,Yes
+2, Jane Smith ,2023-02-10,,spain,No
+3,MARCUS BROWN,03/12/2022,72000,Germany,yes
+4,,2023-05-20,48000,France,
+5,Elena Rodriguez,2021-11-05,61000,,No
+6,   Sarah   Lee,2023-08-14,NaN,USA,Yes
+7,Tom Hardy,unknown,52000,UK,Maybe
+8,lucy qin,2023-09-01,95000,CHINA,yes
+9,Victor Von Doom,2022/12/25,120000,Latveria,No
+10,Sam Wilson,,67000,USA,YES
+11,Peter Parker,2023-04-01,0,USA,
+12,Bruce Wayne ,1939-05-01,1000000000,USA,Yes
+13,Natasha Romanoff,2020-07-07,85k,russia,Yes
+,Steve Rogers,1941-03-01,45000,USA,No
+15,Wanda Maximoff,2024-13-01,70000,Sokovia,Yes

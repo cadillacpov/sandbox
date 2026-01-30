@@ -1,0 +1,36 @@
+id,full_name,registration_date,annual_revenue,country,active
+1,John Doe,2023-01-15,55000,USA,Yes
+2, Jane Smith ,2023-02-10,,spain,No
+3,MARCUS BROWN,03/12/2022,72000,Germany,yes
+4,,2023-05-20,48000,France,
+5,Elena Rodriguez,2021-11-05,61000,,No
+6,   Sarah   Lee,2023-08-14,NaN,USA,Yes
+7,Tom Hardy,unknown,52000,UK,Maybe
+8,lucy qin,2023-09-01,95000,CHINA,yes
+9,Victor Von Doom,2022/12/25,120000,Latveria,No
+10,Sam Wilson,,67000,USA,YES
+11,Peter Parker,2023-04-01,0,USA,
+12,Bruce Wayne ,1939-05-01,1000000000,USA,Yes
+13,Natasha Romanoff,2020-07-07,85k,russia,Yes
+,Steve Rogers,1941-03-01,45000,USA,No
+15,Wanda Maximoff,2024-13-01,70000,Sokovia,Yes
+16, Clint Barton ,2022-06-12, $62,000 ,USA,y
+17,T'Challa,2018-02-16,99999999,Wakanda,YES
+18,scott lang,15-08-2023,null,USA,No
+19,Hope Van Dyne,2023.05.01,72000,Canada,Yes
+20,arthur curry,2018/12/21,50000,Atlantis,True
+21,Barry Allen,2014-10-07,35000,Central City,1
+22,   Diana Prince   ,1941/10/21,90000,Themyscira,Yes
+23,hal jordan,2011-06-17,,USA,0
+24,Carol Danvers,1995-03-08,120000,USA,Active
+25,,2021-01-01,N/A,Mexico,No
+26,Stephen Strange,2016-11-04,250000,USA,yes
+27,Peter Quill,08-01-2014,1500,Space,No
+28,Groot,2014-08-01,0,,I am Groot
+29,Rocket Raccoon,2014-08-01,4500,Halfworld,yes
+30,Drax the Destroyer,2014-08-01,?,Intergalactic,No
+31,Bucky Barnes,1917-03-10,-5000,USA,No
+32,Samuelle "Sam" Wilson,2021-03-19,65,000,USA,Yes
+33,Tony Stark,2008-05-02,999,999,999,USA,Yes
+34,Nick Fury,unknown,unknown,USA,Yes
+35,Maria Hill,2012-05-04,80000,USA,YES
