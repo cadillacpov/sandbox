@@ -1,0 +1,11 @@
+Region,Tenure,SpendScore,Subscribed
+North,12.0,780.0,No
+West,4.0,420.0,Yes
+East,6.0,510.0,No
+West,9.0,610.0,No
+East,10.0,,Yes
+North,7.0,560.0,Yes
+West,,490.0,No
+North,11.0,830.0,
+East,15.0,910.0,No
+,8.0,670.0,Yes
