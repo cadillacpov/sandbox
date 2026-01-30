@@ -4,4 +4,4 @@ for i in range(5):
     numbers.append(num)
 
 average = sum(numbers) / len(numbers)
-print(average)
+print("The average is", average)
